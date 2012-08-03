@@ -1,5 +1,6 @@
 /*!
  * jQuery resize event - v1.1 - 3/14/2010
+ * forked and modified version by Nathan Cartwright (I changed line 63 to rename the event 'baResize' to differentiate from the jQuery UI event of the same name.)
  * http://benalman.com/projects/jquery-resize-plugin/
  * 
  * Copyright (c) 2010 "Cowboy" Ben Alman
@@ -60,7 +61,7 @@
     
     // Reused strings.
     str_setTimeout = 'setTimeout',
-    str_resize = 'resize',
+    str_resize = 'baResize',
     str_data = str_resize + '-special-event',
     str_delay = 'delay',
     str_throttle = 'throttleWindow';

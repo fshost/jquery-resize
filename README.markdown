@@ -1,3 +1,5 @@
+## Fork of Ben's project to set the evenName to 'baResize' rather than 'resize', allowing an easy way to differentiate between events fired by this special event and the jQuery UI resize event.  This required the enormous code change of "str_resize = 'resize'" on line 63 to "str_resize = 'baResize'".  Thanks Ben!
+
 # jQuery resize event #
 [http://benalman.com/projects/jquery-resize-plugin/](http://benalman.com/projects/jquery-resize-plugin/)
 
